@@ -73,5 +73,24 @@
     display: flex;
     align-items: flex;
     gap: 40px;
-    width: ;
+    width: 100%;
+    max-width: 1200;
+}
+
+.section-ia--reverse .section-ia__container{
+    flex-direction: row-reverse;
+}
+
+.section-ia__content{
+    flex: 1;
+}
+
+.section-ia__aside{
+    flex: 1;
+}
+
+.section-ia__title{
+    font-size: var(--font-size-xl);
+    
+
 }
